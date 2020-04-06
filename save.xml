@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restaurant>
+    <users>
+        <user>
+            <name>Adam Smith</name>
+            <password>adam_manager</password>
+            <role>Manager</role>
+            <username>adam</username>
+        </user>
+        <user>
+            <name>John Doe</name>
+            <password>john_doe</password>
+            <role>Client</role>
+            <username>john</username>
+        </user>
+        <user>
+            <name>Brian Johnes</name>
+            <password>mdir@admj%ar5qX2</password>
+            <role>Client</role>
+            <username>brian</username>
+        </user>
+        <user>
+            <name>George Robben</name>
+            <password>k6987_#LpQ</password>
+            <role>Waiter</role>
+            <username>george</username>
+        </user>
+        <user>
+            <name>Tomas Hobbens</name>
+            <password>cooker_pass</password>
+            <role>Cooker</role>
+            <username>hobbens_tom</username>
+        </user>
+    </users>
+    <tables>
+        <table>
+            <number_of_seats>5</number_of_seats>
+            <number>1</number>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number_of_seats>12</number_of_seats>
+            <number>2</number>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number_of_seats>12</number_of_seats>
+            <number>3</number>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number_of_seats>4</number_of_seats>
+            <number>4</number>
+            <smoking>false</smoking>
+        </table>
+        <table>
+            <number_of_seats>4</number_of_seats>
+            <number>5</number>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number_of_seats>7</number_of_seats>
+            <number>6</number>
+            <smoking>true</smoking>
+        </table>
+        <table>
+            <number_of_seats>6</number_of_seats>
+            <number>7</number>
+            <smoking>true</smoking>
+        </table>
+    </tables>
+    <dishes>
+        <dish>
+            <name>Grilled Chicken</name>
+            <price>75.0</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Greek Salade</name>
+            <price>35.0</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Fried Potatos</name>
+            <price>30.0</price>
+            <type>appetizer</type>
+        </dish>
+        <dish>
+            <name>Apple Pie</name>
+            <price>50.0</price>
+            <type>desert</type>
+        </dish>
+        <dish>
+            <name>Molten Cake</name>
+            <price>60.0</price>
+            <type>desert</type>
+        </dish>
+        <dish>
+            <name>Mushroom Soup</name>
+            <price>60.0</price>
+            <type>main_course</type>
+        </dish>
+        <dish>
+            <name>Beef Steak</name>
+            <price>80.0</price>
+            <type>main_course</type>
+        </dish>
+    </dishes>
+    <reservations>
+        <reservation>
+            <name>John Doe</name>
+            <tableNumber>5</tableNumber>
+            <totalPriceAfterTax>1410.0</totalPriceAfterTax>
+            <numOfSeats>4</numOfSeats>
+            <food>
+                <count>0</count>
+                <name>Grilled Chicken</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Beef Steak</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Mushroom Soup</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Greek Salad</name>
+            </food>
+            <food>
+                <count>10</count>
+                <name>Fried Potatoes</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Apple Pie</name>
+            </food>
+            <food>
+                <count>15</count>
+                <name>Molten Cake</name>
+            </food>
+        </reservation>
+        <reservation>
+            <name>John Doe</name>
+            <tableNumber>7</tableNumber>
+            <totalPriceAfterTax>1586.75</totalPriceAfterTax>
+            <numOfSeats>6</numOfSeats>
+            <food>
+                <count>3</count>
+                <name>Grilled Chicken</name>
+            </food>
+            <food>
+                <count>4</count>
+                <name>Beef Steak</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Mushroom Soup</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Greek Salad</name>
+            </food>
+            <food>
+                <count>0</count>
+                <name>Fried Potatoes</name>
+            </food>
+            <food>
+                <count>10</count>
+                <name>Apple Pie</name>
+            </food>
+            <food>
+                <count>5</count>
+                <name>Molten Cake</name>
+            </food>
+        </reservation>
+    </reservations>
+</restaurant>
